@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@drawable/listview_border"
+    android:layout_marginBottom="15dp"    >
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/t"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:text="Language"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:text="Experience:"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:text="Rating:"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_height="wrap_content"
+            android:hint="Agnesh Godhani"
+            android:id="@+id/t3"/>
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:hint="Java,Android"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:hint="7 Year"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:hint="5"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp" />
+
+        <RatingBar
+            android:id="@+id/rate"
+            android:rating="3"
+            android:numStars="5"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>

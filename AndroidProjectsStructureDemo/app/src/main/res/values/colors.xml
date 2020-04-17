@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark1">#ff9f00</color>
+    <color name="package_back">#F5F5F5</color>
+
+    <!-- <color name="dash_back">#0a3b38</color>-->
+    <!--  <color name="dash_back">#92b158</color>-->
+    <color name="dash_back">#669940</color>
+    <!--<color name="colorPrimary">#00202A</color>
+    <color name="colorPrimaryDark">#00202A</color>-->
+    <!--<color name="colorPrimary">#19363f</color>-->
+    <!--   <color name="colorPrimary">#36845a</color>-->
+    <!--<color name="colorPrimary">#609f44</color>-->
+    <!-- <color name="colorPrimary">#0a3b38</color>-->
+    <!--<color name="colorPrimary">#92b158</color>-->
+    <color name="colorPrimary">#669940</color>
+
+    <!-- <color name="colorPrimaryDark">#36845a</color>-->
+    <!-- <color name="colorPrimaryDark">#609f44</color>-->
+    <!-- <color name="colorPrimaryDark">#3ADD9B</color>-->
+    <!--   <color name="colorPrimaryDark">#0a3b38</color>-->
+    <!--<color name="colorPrimaryDark">#92b158</color>-->
+    <color name="colorPrimaryDark">#48702B</color>
+    <!--   <color name="colorAccent">#e67300</color>-->
+    <!--<color name="colorAccent">#ef6d0e</color>-->
+    <color name="colorAccent">#FA9A50</color>
+    <!--<color name="colorAccent2">#0073e6</color>-->
+    <color name="colorAccent2">#6CD1EE</color>
+
+    <color name="colorPrimaryLight">#19363f</color>
+    <!--<color name="colorPrimaryLight2">#324c54</color>-->
+    <!-- <color name="colorPrimaryLight2">#5033c680</color>-->
+    <color name="colorPrimaryLight2">#50609f44</color>
+
+
+    <color name="dash_back_light">#3b6260</color>
+
+    <color name="black">#000000</color>
+    <color name="gradient1">#ffb850</color>
+    <color name="app_background">#f7f4ef</color>
+    <!--  <color name="app_background">#90FFFFFF</color>-->
+    <!-- Red -->
+    <color name="red_500">#F44336</color>
+    <color name="red_A700">#D50000</color>
+    <!-- Red -->
+
+    <!-- Pink -->
+    <!-- Pink -->
+
+    <!-- Purple -->
+    <!-- Purple -->
+
+    <!-- Deep Purple -->
+    <!-- Deep Purple -->
+
+    <!-- Indigo -->
+    <!-- Indigo -->
+
+    <!-- Blue -->
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_A700">#2962FF</color>
+    <!-- Blue -->
+
+    <!-- Light Blue -->
+    <!-- Light Blue -->
+
+    <!-- Cyan -->
+    <!-- Cyan -->
+
+    <!-- Teal -->
+    <!-- Teal -->
+
+    <!-- Green -->
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_A700">#00C853</color>
+    <!-- Green -->
+
+    <!-- Light Green -->
+    <color name="light_green_A700">#64DD17</color>
+    <!-- Light Green -->
+
+    <!-- Lime -->
+    <!-- Lime -->
+
+    <!-- Yellow -->
+    <color name="yellow_700">#FBC02D</color>
+    <color name="yellow_800">#F9A825</color>
+    <color name="yellow_A700">#FFD600</color>
+    <!-- Yellow -->
+
+    <!-- Amber -->
+    <!-- Amber -->
+
+    <!-- Orange -->
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_600">#FB8C00</color>
+    <color name="orange_A700">#FF6D00</color>
+    <!-- Orange -->
+
+
+    <color name="text_color_dashboard">#FCB662</color>
+
+    <!-- Deep Orange -->
+    <!-- Deep Orange -->
+
+    <!-- Brown -->
+    <color name="brown_400">#8D6E63</color>
+    <color name="brown_900">#3E2723</color>
+    <!-- Brown -->
+
+    <!-- Grey -->
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <!--<color name="grey_400">#BDBDBD</color>-->
+    <color name="grey_400">#FFFFFF</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <!-- Grey -->
+
+    <!-- Blue Grey -->
+    <color name="blue_grey_300">#90A4AE</color>
+    <!-- Blue Grey -->
+
+
+    <color name="white">#ffffff</color>
+
+</resources>
+

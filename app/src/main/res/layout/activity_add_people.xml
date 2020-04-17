@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".Activity.DashboardActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:src="@drawable/ic_right"
+                android:layout_gravity="center"
+                android:tint="@color/grey" />
+
+            <SearchView
+                android:id="@+id/search"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:iconifiedByDefault="false">
+
+                <requestFocus />
+            </SearchView>
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="@dimen/_25sdp"
+                android:text="Filter"
+                android:layout_weight="0.3"
+                android:background="@drawable/circle_gradient"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:letterSpacing="0.02"
+                android:textColor="@color/app_background"
+                android:textSize="@dimen/_12ssp"/>
+        </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/lv"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/_30sdp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:text="Continue"
+        android:background="@drawable/circle_gradient"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:letterSpacing="0.02"
+        android:textColor="@color/app_background"
+        android:textSize="@dimen/_12ssp"/>
+</LinearLayout>

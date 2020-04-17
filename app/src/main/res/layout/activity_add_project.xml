@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.DashboardActivity">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/ic_right"
+        android:layout_gravity="top"
+        android:tint="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:letterSpacing="0.02"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="#ffA500"
+        android:layout_height="wrap_content"
+        android:text="ADD PROJECT DETAILS"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_20sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_height="wrap_content"
+            android:text="Project Name:"/>
+
+        <EditText
+            android:id="@+id/edt_project"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:hint="Project Name"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_20sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_height="wrap_content"
+            android:text="Project Description:"/>
+
+        <EditText
+            android:id="@+id/edt_project_des"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:minLines="5"
+            android:gravity="top|left"
+            android:maxLines="18"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:scrollbars="vertical"
+            android:hint="Project Description"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginVertical="@dimen/_10sdp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_20sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.02"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_height="wrap_content"
+            android:text="Total Member:"/>
+
+        <EditText
+            android:id="@+id/edt_total_member"
+            android:focusable="false"
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:hint="00"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/like_black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="@drawable/circle_gradient"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:letterSpacing="0.02"
+        android:textColor="@color/app_background"
+        android:textSize="@dimen/_12ssp"/>
+    </LinearLayout>
+</LinearLayout>
